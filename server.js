@@ -202,16 +202,16 @@ function mainMenu() {
             mainMenu();
           });
           break;
-        case "ADD new department":
+        case "ADD a new department":
           addDept();
           break;
-        case "ADD new role":
+        case "ADD a new role":
           addRole();
           break;
-        case "ADD new employee":
+        case "ADD a new employee":
           addEE();
           break;
-        case "UPDATE employee role":
+        case "UPDATE an employee's role":
           editRole();
           break;
         default:
