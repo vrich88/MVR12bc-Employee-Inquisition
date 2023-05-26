@@ -1,0 +1,26 @@
+{
+  "name": "mvr12bc-employee-inquisition",
+  "version": "1.0.0",
+  "description": "SQL Challenge: Employee Tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrich88/MVR12bc-Employee-Inquisition.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vrich88/MVR12bc-Employee-Inquisition/issues"
+  },
+  "homepage": "https://github.com/vrich88/MVR12bc-Employee-Inquisition#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.3.2"
+  }
+}
