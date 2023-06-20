@@ -133,7 +133,6 @@ function editRole() {
       const newPosition = data.map((row) => {
         return { name: row.title, value: row.id };
       });
-      // console.log(allEmployees);
       inquirer
         .prompt([
           {
